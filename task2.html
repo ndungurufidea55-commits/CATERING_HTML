@@ -1,0 +1,102 @@
+DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <img src="./images/its.jpg" alt="Hero Image">
+            <h1>LE CATERING</h1>
+            <p>Explore our offerings and learn more about us!</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content">
+            <h1>About catering</h1>
+            <h1>traditional since 1889</h1>
+            <p>the catering was founded in blabla by mr .smith in lorem ipsum<br>
+                 dolor sit amet ,consectetur adspecing elit,<br>
+                 wit great expectations where they expected <br>
+                 to earn more ptofit and supply food <br>
+                 worldwide</p>
+            <p> we strive to innovate interacts with us.</p>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="content">
+            <img src="">
+            <h1>Our Menu</h1>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef patty with lettuce, tomato, and special sauce - $8.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="">
+                    <h3>Margherita Pizza</h3>
+                    <p>Fresh tomatoes, mozzarella, and basil - $12.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="">
+                    <h3>Caesar Salad</h3>
+                    <p>Crisp romaine, croutons, and Caesar dressing - $6.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="">
+                    <h3>Iced Coffee</h3>
+                    <p>Chilled coffee with a hint of vanilla - $3.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content">
+            <img src="https://via.placeholder.com/600x300" alt="Contact Us Image" class="section-image">
+            <h1>Contact Us</h1>
+            <p>Have questions or feedback? Reach out to us using the form below or our contact details.</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> info@simplewebsite.com</p>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">message</label>
+                    <textarea name="message" rows=5 required id="message"></textarea>
+                    …
+                    <button type="submit"> send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>$copy;2025 fod service.all right reserved</p>
+    </footer>
+</body>
+
+</html>
